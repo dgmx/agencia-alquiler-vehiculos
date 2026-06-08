@@ -58,12 +58,12 @@ classDiagram
 
     class Auto {
         -esDeLujo: boolean
-        +Auto(matricula, marca, modelo, anio, precioBase, esDeLujo)
+        +Auto(matricula, marca, modelo, anio, precioBasePorDia, esDeLujo)
         +calcularPrecioAlquiler(dias: int) double
     }
 
     class Moto {
-        +Moto(matricula, marca, modelo, anio, precioBase)
+        +Moto(matricula, marca, modelo, anio, precioBasePorDia)
         +calcularPrecioAlquiler(dias: int) double
     }
 
